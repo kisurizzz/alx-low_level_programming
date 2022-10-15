@@ -1,4 +1,4 @@
-#!/bin/bash
+#include <stdio.h>
 /**
  * main -is the entry point for the program.
  *
