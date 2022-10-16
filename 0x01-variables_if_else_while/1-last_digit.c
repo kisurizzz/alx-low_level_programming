@@ -6,6 +6,7 @@
  *
  * Return:0 successs
  */
+
 int main(void)
 {
 	int n;
