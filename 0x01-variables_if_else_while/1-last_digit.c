@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main - entry poinT
+ * main - entry point56
  *
  * Return:0 successs
  */
+
 /* Description: the last digit */
 int main(void)
 {
