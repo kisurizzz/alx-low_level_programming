@@ -4,6 +4,8 @@
 /*
  * main - Entry point
  *
+ * Description: The last digit
+ *
  * Return:0 successs
  */
 int main(void)
