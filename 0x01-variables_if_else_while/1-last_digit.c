@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main-program entry point
+ * main - Entry point
  *
  * Return:0 successs
  */
-
 int main(void)
 {
 	int n;
