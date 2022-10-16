@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/*
+/**
  * main - Entry point
  *
  * Return:0 successs
- */
-/* Description: the last digit */int main(void)
+ *
+ * Description: the last digit */int main(void)
 {
 	int n;
 
