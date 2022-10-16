@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main- entry point
+ * main-program entry point
  *
  * Return:0 successs
  */
