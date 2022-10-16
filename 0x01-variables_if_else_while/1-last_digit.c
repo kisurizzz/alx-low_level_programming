@@ -6,7 +6,9 @@
  *
  * Return:0 successs
  *
- * Description: the last digit */int main(void)
+ * Description: the last digit
+ */
+int main(void)
 {
 	int n;
 
