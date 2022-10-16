@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main - entry point56
+ * main -> assign a random number to the variable n each time it is executed and print the last digit
  *
  * Return:0 successs
  */
-int main(void)/* Description: last digit */
+int main(void)
 {
 	int n;
 
