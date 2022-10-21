@@ -93,4 +93,11 @@ int add(int a, int b);
 
 void print_to_98(int n);
 
+/**
+ * print_times_table - Prints the times table of the input,
+ * @n: The value of the times table to be printed.
+ */
+
+void print_times_table(int n)
+
 #endif
