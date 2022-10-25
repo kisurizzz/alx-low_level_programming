@@ -8,25 +8,26 @@
  **/
 int main(void)
 {
-	int digit1, digit2, digit3;
+	int one;
+	int ten;
+	int hundred;
 
-	for (digit1 = 0; digit1 < 8; digit1++)
+	for (hundred = '0'; hundred <= '9'; hundred++) /*hundreds place*/
 	{
-		for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+		for (one = (ten + 1); one <= '9'; one++) /*ones*/
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-			putchar((digit3 % 10) + '0');
+			putchar(hundred);
+			putchar(ten);
+			putchar(one);
 
-			if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-				continue;
-			putchar(',');
-			putchar(' ');
+			if (hundred != '7' || ten != '8' || one != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-
 	putchar('\n');
 
 	return (0);
 }
-
